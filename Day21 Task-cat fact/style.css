@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to left,red,orange,yellow);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.card {
+    box-shadow: 0 0 20px rgb(67, 4, 4);
+    width: 500px;
+    border-radius: 20px;
+    background-color: #efefef;
+    transition: 0.7s;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-content {
+    padding: 0 25px 5px 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+.btn {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin: 20px 0 0 30px;
+    padding: 3px;
+    border-radius: 5px;
+}
